@@ -5,7 +5,6 @@ import seaborn as sns
 
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.impute import SimpleImputer, MissingIndicator
-from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.pipeline import Pipeline, FeatureUnion
 from sklearn.preprocessing import (
     OneHotEncoder,

@@ -12,5 +12,3 @@ list(characters.values()).index(max(characters.values()))
 list(characters.keys())[0]
 
 best_char = characters.keys()[characters.values().index(max(characters.values()))]
-
-[1, 2, 3][1]

@@ -11,3 +11,5 @@ General learning repo is designed to host various learning objects from sources 
 [Pokemon](https://github.com/couyang24/general_learning-tiffany/tree/master/Pokemon)
 
 [Coursera](https://github.com/couyang24/general_learning-tiffany/tree/master/Coursera)
+
+[Quantium](https://github.com/tiffanysn/general_learning/tree/dev/Quantium)

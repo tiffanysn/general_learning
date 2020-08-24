@@ -4,6 +4,7 @@ import streamlit as st
 import altair as alt
 
 df = pd.read_csv('~/Projects/general_learning/Quantium/QVI_data.csv')
+df.info()
 
 st.write("""
 # Sales Analysis
@@ -17,6 +18,8 @@ df = df.groupby(["year_month", "LIFESTAGE"])["TOT_SALES"].sum().reset_index()
 df = pd.pivot_table(df, values="TOT_SALES", index="LIFESTAGE", columns="year_month")
 
 st.sidebar.header('Input Features')
+st.sidebar.subheader('Choose PREMIUM_CUSTOMER')
+
 
 stores = st.multiselect(
     "Choose Lifestages", list(df.index), ["YOUNG FAMILIES", "OLDER FAMILIES"]
